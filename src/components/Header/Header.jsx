@@ -1,21 +1,20 @@
-import "./Header.css"
+import './Header.css'
 import logo from '../../assets/eliminator.png'
 const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src={logo} alt="" />
+        <a href="/"><img src={logo} alt="" /></a>
       </div>
-      <div className="headerInfo">
+      <nav>
         <ul>
-          <li>Todo</li>
-          <li>Autos</li>
-          <li>Suv</li>
-          <li>Pick-up</li>
+          <li><a href="/category/all">Todos</a></li>
+          <li><a href="/category/cars">Autos</a></li>
+          <li><a href="/category/suv">Suv</a></li>
+          <li><a href="/category/pickup">Pick-up</a></li>
         </ul>
-      </div>
+      </nav>
     </header>
-
   )
 }
 

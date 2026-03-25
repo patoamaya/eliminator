@@ -1,9 +1,8 @@
 import './Home.css'
 const Home = () => {
   return (
-    <div>Home</div>
+    <main>Home</main>
   )
 }
 
 export default Home
-

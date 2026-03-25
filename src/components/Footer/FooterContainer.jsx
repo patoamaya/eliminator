@@ -3,10 +3,14 @@ import Footer from "./Footer"
 Outlet
 const FooterContainer = () => {
   return (
+  <div>
     <div>
-        <Outlet />
+      <Outlet />
+    </div>
+    <div>
         <Footer/>
     </div>
+  </div>
   )
 }
 

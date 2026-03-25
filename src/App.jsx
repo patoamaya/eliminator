@@ -4,6 +4,7 @@ import HomeContainer from './components/Home/HomeContainer'
 import DetailContainer from './components/Detail/DetailContainer'
 import HeaderContainer from './components/Header/HeaderContainer'
 import FooterContainer from './components/Footer/FooterContainer'
+import ListContainer from './components/List/ListContainer'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
         <Routes>
           <Route element={<HeaderContainer/>}>
           <Route element={<FooterContainer/>}>
-          <Route path="/" element={<HomeContainer/>} />
-          <Route path="/detail/id?" element={<DetailContainer/>} />
+          <Route path="/" element={<HomeContainer/>}/>
+          <Route path="/detail/:id?" element={<DetailContainer/>}/>
+          <Route path="/category/:category?" element={<ListContainer/>}/>
           </Route>
           </Route>
         </Routes>
