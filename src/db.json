@@ -1,0 +1,100 @@
+[
+    {
+    "marca": "ford",
+    "modelo": "mondeo",
+    "tipo": "auto",
+    "carroceria": "sedan",
+    "año": "2023",
+    "color": "blanco",
+    "kms": "14000",
+    "combustible": "nafta"
+},
+{
+    "marca": "fiat",
+    "modelo": "argo",
+    "tipo": "auto",
+    "carroceria": "hatchback",
+    "año": "2026",
+    "color": "gris",
+    "kms": "3000",
+    "combustible":"nafta"
+},
+{
+    "marca": "chevrolet",
+    "modelo": "tracker",
+    "tipo": "suv",
+    "carroceria": "suv",
+    "año": "2016",
+    "color": "rojo",
+    "kms": "85000",
+    "combustible": "nafta"
+},
+{
+    "marca": "volkswagen",
+    "modelo": "tiguan",
+    "tipo": "suv",
+    "carroceria": "suv",
+    "año": "2020",
+    "color": "negro",
+    "kms": "54000",
+    "combustible": "nafta"
+},
+{
+    "marca": "ford",
+    "modelo": "fiesta",
+    "tipo": "auto",
+    "carroceria": "hatchback",
+    "año": "2015",
+    "color": "azul",
+    "kms": "105000",
+    "combustible": "nafta"
+},
+{
+    "marca": "ford",
+    "modelo": "ranger",
+    "tipo": "pickup",
+    "carroceria": "pickup",
+    "año": "2019",
+    "color": "blanco",
+    "kms": "185000",
+    "combustible": "diesel"
+},
+{
+    "marca": "toyota",
+    "modelo": "hilux",
+    "tipo": "suv",
+    "carroceria": "suv",
+    "año": "2014",
+    "color": "gris",
+    "kms": "230000"
+},
+{
+    "marca": "peugeot",
+    "modelo": "308",
+    "tipo": "auto",
+    "carroceria": "hatchback",
+    "año": "2013",
+    "color": "rojo",
+    "kms": "110000",
+    "combustible": "nafta"
+},
+{
+    "marca": "citroen",
+    "modelo": "c4",
+    "tipo": "auto",
+    "carroceria": "hatchback",
+    "año": "2008",
+    "color": "negro",
+    "kms": "130000",
+    "combustible": "nafta"
+},
+{
+    "marca": "fiat",
+    "modelo": "titano",
+    "tipo": "pickup",
+    "carroceria": "pickup",
+    "año": "2026",
+    "color": "azul",
+    "kms": "2000"
+}
+]
