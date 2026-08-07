@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 const HomeContainer = () => {
-const [category, setCategory] = useState("")
+const [category, setCategory] = useState([])
+const [outstanding, setOutstanding] = useState([])
 const {categoria} = useParams()
 
 useEffect(()=>{
@@ -13,12 +14,19 @@ useEffect(()=>{
       setCategory(filtrado)
   }else{
     setCategory(vehiculos)
-  }
-},[categoria])
 
+  }
+  
+  let destacados = vehiculos?.filter((vehiculo)=>
+    vehiculo.destacado === true
+  )
+  setOutstanding(destacados)
+  // console.log(outstanding)
+},[categoria])
+// console.log(outstanding)
 
   return (
-    <div><Home category={category}/></div>
+    <div><Home category={category} outstanding={outstanding}/></div>
   )
 }
 

@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './Home.css'
-const Home = ({category}) =>{
+const Home = ({category, outstanding}) =>{
+  console.log(outstanding)
 return(
   <div className="home-container">
-
     {/* <div className="home-info">
       { category?.length > 0 &&
         category.map((vehiculo)=>

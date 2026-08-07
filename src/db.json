@@ -7,7 +7,8 @@
     "año": "2023",
     "color": "blanco",
     "kms": "14000",
-    "combustible": "nafta"
+    "combustible": "nafta",
+    "destacado": true
 },
 {
     "marca": "fiat",
@@ -17,7 +18,8 @@
     "año": "2026",
     "color": "gris",
     "kms": "3000",
-    "combustible":"nafta"
+    "combustible":"nafta",
+    "destacado": false
 },
 {
     "marca": "chevrolet",
@@ -27,7 +29,8 @@
     "año": "2016",
     "color": "rojo",
     "kms": "85000",
-    "combustible": "nafta"
+    "combustible": "nafta",
+    "destacado": false
 },
 {
     "marca": "volkswagen",
@@ -37,7 +40,8 @@
     "año": "2020",
     "color": "negro",
     "kms": "54000",
-    "combustible": "nafta"
+    "combustible": "nafta",
+    "destacado": true
 },
 {
     "marca": "ford",
@@ -47,7 +51,8 @@
     "año": "2015",
     "color": "azul",
     "kms": "105000",
-    "combustible": "nafta"
+    "combustible": "nafta",
+    "destacado": false
 },
 {
     "marca": "ford",
@@ -57,7 +62,9 @@
     "año": "2019",
     "color": "blanco",
     "kms": "185000",
-    "combustible": "diesel"
+    "combustible": "diesel",
+    "destacado": true
+
 },
 {
     "marca": "toyota",
@@ -66,7 +73,9 @@
     "carroceria": "suv",
     "año": "2014",
     "color": "gris",
-    "kms": "230000"
+    "kms": "230000",
+    "destacado": false
+
 },
 {
     "marca": "peugeot",
@@ -76,7 +85,9 @@
     "año": "2013",
     "color": "rojo",
     "kms": "110000",
-    "combustible": "nafta"
+    "combustible": "nafta",
+    "destacado": false
+
 },
 {
     "marca": "citroen",
@@ -86,7 +97,9 @@
     "año": "2008",
     "color": "negro",
     "kms": "130000",
-    "combustible": "nafta"
+    "combustible": "nafta",
+    "destacado": true
+
 },
 {
     "marca": "fiat",
@@ -95,6 +108,8 @@
     "carroceria": "pickup",
     "año": "2026",
     "color": "azul",
-    "kms": "2000"
+    "kms": "2000",
+    "destacado": false
+
 }
 ]
