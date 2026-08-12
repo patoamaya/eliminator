@@ -1,13 +1,17 @@
+/* .header{
+    background-color: red;
+} */
+
+
 header{
     display: flex;
-    /* background-color: rgb(205, 152, 5); */
     height: 13vh;
     justify-content: space-between;
+    /* background-color: red; */
 }
 .logo{
     padding: .5rem 2rem;
     width: 10%;
-    /* background-color: gray; */
 }
 .logo img{
     width: 100%;
@@ -33,6 +37,26 @@ nav ul{
 
 nav ul li a{
     color: black;
+}
+
+nav ul li button {
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: .7rem;
+    box-shadow: 0px -1px 21px 10px rgba(101, 99, 99, 0.67);
+    background-color: rgb(247, 247, 162);
+    transition: .3s;
+    cursor: pointer;
+}
+nav ul li a button{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: rgb(247, 247, 162);
+}
+nav ul li button:hover{
+    box-shadow: 0px -1px 21px 10px rgba(247, 247, 162, 0.515);
+    
 }
 
 a:hover{
