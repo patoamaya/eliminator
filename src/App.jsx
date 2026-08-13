@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import HomeContainer from './components/Home/HomeContainer'
 import DetailContainer from './components/Detail/DetailContainer'
-import HeaderContainer from './components/Header/HeaderContainer'
+// import HeaderContainer from './components/Header/HeaderContainer'
 import FooterContainer from './components/Footer/FooterContainer'
 
 function App() {
@@ -11,12 +11,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route element={<HeaderContainer/>}>
+          {/* <Route element={<HeaderContainer/>}> */}
           <Route element={<FooterContainer/>}>
           <Route path="/:categoria?" element={<HomeContainer/>}/>
           <Route path="/detail/:id?" element={<DetailContainer/>}/>
           </Route>
-          </Route>
+          {/* </Route> */}
         </Routes>
       </BrowserRouter>
     </div>

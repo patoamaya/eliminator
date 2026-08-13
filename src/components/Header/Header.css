@@ -2,12 +2,11 @@
     background-color: red;
 } */
 
-
+/* 
 header{
     display: flex;
     height: 13vh;
     justify-content: space-between;
-    /* background-color: red; */
 }
 .logo{
     padding: .5rem 2rem;
@@ -55,10 +54,56 @@ nav ul li a button{
     background-color: rgb(247, 247, 162);
 }
 nav ul li button:hover{
-    box-shadow: 0px -1px 21px 10px rgba(247, 247, 162, 0.515);
     
 }
 
 a:hover{
     transform: scale(1.1);
-}
+    } */
+    
+    
+    header{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 10rem;
+        width: 30rem;
+        padding: 1rem;
+        background-color: rgb(48, 46, 46);
+        border-radius: .6rem;
+        position: fixed;
+    }
+    
+    header nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    header nav ul a{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: black;
+        transition: .3s;
+    }
+    header nav ul a:hover{
+        color: beige;
+    }
+    
+    header nav ul a button{
+        width: 4rem;
+        height: 100%;
+        background-color: rgb(255, 255, 0);
+        border: none;
+        border-radius: .5rem;
+        box-shadow: 0px -1px 21px 10px rgba(251, 251, 0, 0.205);
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: .3rem;
+        transition: .3s;
+    }
+    
+    header nav ul a button:hover{
+        box-shadow: 0px -1px 21px 10px rgba(251, 251, 0, 0.314);
+        
+    }

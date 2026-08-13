@@ -1,4 +1,37 @@
 .home-container{
-    min-height: 90vh;
-    background-color: rgb(74, 74, 74);
+    min-height: 130vh;
+    background-color: rgb(13, 13, 13);
+}
+
+.logo{
+    position: fixed;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.logo img{
+    width: 150px;
+}
+
+nav{
+    width: 95%;
+    gap: 2rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+main{
+    display: flex;
+    background-color: red;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main h1{
+    color: rgb(215, 209, 209);
+    font-size: 20vh;
 }

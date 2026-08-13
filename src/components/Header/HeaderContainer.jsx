@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+// import { Outlet } from "react-router-dom"
 import Header from "./Header"
 
 const HeaderContainer = () => {
@@ -7,9 +7,9 @@ const HeaderContainer = () => {
     <div>
         <Header/>
     </div>
-    <div>
+    {/* <div>
         <Outlet/>
-    </div>
+    </div> */}
 </div>
   )
 }
